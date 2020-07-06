@@ -1,5 +1,9 @@
 package com.honey.leetcode.solution;
 
+import java.lang.management.ManagementFactory;
+import java.lang.management.ThreadInfo;
+import java.lang.management.ThreadMXBean;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -16,6 +20,13 @@ import java.util.Set;
 public class Problem3LongestSubstring {
     public static void main(String[] args) {
         System.out.println(new Problem3LongestSubstring().lengthOfLongestSubstring3("abba"));
+
+        ThreadMXBean threadMXBean = ManagementFactory.getThreadMXBean();
+        ThreadInfo[] threadInfos = threadMXBean.dumpAllThreads(false, false);
+        for (ThreadInfo threadInfo : threadInfos) {
+            System.out.println(threadInfo.getThreadId()+ ":"+threadInfo.getThreadName());
+        }
+        "a".notifyAll();
     }
 
     /**
