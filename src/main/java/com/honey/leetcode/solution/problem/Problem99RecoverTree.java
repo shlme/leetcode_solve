@@ -1,4 +1,4 @@
-package com.honey.leetcode.solution;
+package com.honey.leetcode.solution.problem;
 
 
 import com.honey.leetcode.model.TreeNode;

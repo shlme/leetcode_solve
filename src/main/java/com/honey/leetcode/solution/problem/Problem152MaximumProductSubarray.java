@@ -1,4 +1,4 @@
-package com.honey.leetcode.solution;
+package com.honey.leetcode.solution.problem;
 
 /**
  * 152. 乘积最大子数组

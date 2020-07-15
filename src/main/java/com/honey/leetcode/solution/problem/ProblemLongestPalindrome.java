@@ -1,4 +1,4 @@
-package com.honey.leetcode.solution;
+package com.honey.leetcode.solution.problem;
 
 /**
  * @author hualin.su
