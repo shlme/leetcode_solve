@@ -1,4 +1,4 @@
-package com.honey.study.thread;
+package com.honey.study.thread.printabc;
 
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
